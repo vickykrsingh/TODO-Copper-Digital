@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-axios.defaults.baseURL = 'http://localhost:8000/api';
 
 const TodoList = ({ userId }) => {
     const [tasks, setTasks] = useState([]);

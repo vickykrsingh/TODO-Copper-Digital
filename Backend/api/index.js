@@ -1,12 +1,3 @@
-// Installation Commands
-// Run these in your terminal
-// Backend dependencies
-// npm install express mongoose cors dotenv jsonwebtoken bcryptjs axios
-
-// Frontend dependencies
-// npm install axios react-router-dom tailwindcss
-
-// server.js (Backend - Express & MongoDB)
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
